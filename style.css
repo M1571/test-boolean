@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Poppins', arial;
+}
+
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#box{
+  background-color: rgba(0,0,0,0.5);
+  width: 	62.5%;
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 15px;
+  padding: 80px 100px;
+}
+
+#logo{
+  width: 23.5%;
+}
+
+header{
+  text-align: center;
+  font-size: 15px;
+  color: rgb(0,221,0);
+}
+
+nav{
+  background-color: rgb(0,220,0);
+  text-align: center;
+  padding: 4px;
+}
+
+nav button{
+  font-weight: bold;
+  font-size: 9px;
+}
+
+section h2{
+  display: inline-block;
+}
+
+section{
+  padding: 9px 0px;
+  color: white;
+  margin-top: 10px;
+}
+
+section input{
+  margin-left: 5px;
+}
+
+.via:before{
+  content: "\21A6";
+}
+
+#M01{
+  background-color: rgb(245,180,83);
+  width: 40%;
+  height: 25px;
+  border-radius: 4.5px;
+}
+
+#M02{
+  background-color: rgb(30,195,30);
+  width: 63%;
+  height: 25px;
+  border-radius: 4.5px;
+}
+
+#M03{
+  background-color: rgb(190,65,65);
+  width: 17%;
+  height: 25px;
+  border-radius: 4.5px;
+}
